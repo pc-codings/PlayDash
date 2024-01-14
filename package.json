@@ -3,16 +3,14 @@
   "version": "1.0.0",
   "description": "clone",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Paritosh Chowdhury",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.0.2"
-  }
+  "license": "ISC"
 }
